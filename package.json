@@ -1,0 +1,33 @@
+{
+  "name": "yc-remove-watermark",
+  "version": "1.0.0",
+  "description": "云宸AI图片水印与隐藏信息移除工具",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "package": "npm run build && electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "electron": "^42.0.1",
+    "electron-builder": "^26.8.1",
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.12",
+    "vite-plugin-electron": "^0.29.1",
+    "vite-plugin-electron-renderer": "^0.14.7",
+    "vue-tsc": "^3.2.9"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "element-plus": "^2.14.0",
+    "sharp": "^0.34.5",
+    "vue": "^3.5.34",
+    "vue-i18n": "^10.0.7"
+  }
+}

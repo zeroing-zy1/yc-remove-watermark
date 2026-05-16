@@ -1,0 +1,15 @@
+appId: com.zouyou.yc-remove-watermark
+productName: 云宸AI图片水印与隐藏信息移除工具
+directories:
+  output: release
+files:
+  - dist
+  - dist-electron
+mac:
+  target:
+    - dmg
+  artifactName: "${productName}-${version}-mac.${ext}"
+win:
+  target:
+    - nsis
+  artifactName: "${productName}-${version}-win.${ext}"
